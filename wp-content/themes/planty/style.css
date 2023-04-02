@@ -1,0 +1,291 @@
+/*
+Theme Name: Planty
+Theme URI: https://openclassroorms.com/
+Author: Planty
+Author URI: https://openclassrooms.com/
+Description: Theme Planty based on onepress
+Template: onepress
+Version: 1.0.0
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: planty
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/* Header */
+.menu-button {
+	background-color: #dc9f96 !important;
+	padding: 0px 30px !important;
+	margin-right: -30px !important;
+}
+
+.menu-button a,
+.menu-button a:hover{
+	color: #ffffff !important;
+	margin-right: 10px !important;
+	
+}
+
+.menu-button:hover {
+	background-color: #c02e44 !important;
+}
+
+.onepress-menu li a{
+	text-transform: capitalize !important;
+}
+
+/* Footer */
+.footer-widgets {
+	background: #fff !important;
+	height: 80px !important;
+	padding: 24px 0px 0px 0px !important;
+	
+}
+.footer {
+	padding: 0px 0px !important;
+	text-align: center !important;
+}
+
+.footer a{
+	font-weight: 400 !important;
+	font-size: 16px !important;
+	color: #000 !important;
+
+}
+
+.footer a:hover{
+	color: #e0b9b4 !important;
+	text-decoration: none!important;
+
+}
+
+
+
+/* Home top */
+#home-top::before {
+  border-radius: 40% !important;
+  border: 10px solid #e3d9d0 !important;
+  position: absolute !important;
+  background: #ece2da !important;
+  right: -600px !important;
+  left: -600px !important;
+  top: -120px !important;
+  content: '' !important;
+  bottom: 0 !important;
+}
+
+
+/* Button */
+.btn-default{
+	background-color: #e0b9b4 !important;
+}
+
+.btn-default:hover{
+	background-color: #c02e44 !important;
+}
+
+
+.order-btn-module{
+	position: relative !important;
+	top: 630px !important;
+}
+
+
+/* Everest Form */
+.order-form-section .everest-form .evf-frontend-grid:first-child {
+
+	border-right: 1px solid #FFFFFF !important;
+
+}
+
+
+.order-form-section .everest-form .everest-forms-submit-button,
+.contact-form-section .everest-form .everest-forms-submit-button {
+
+    margin: 10px auto !important;
+    display: block !important;
+
+
+}
+
+.order-form-section .everest-form .everest-forms-submit-button,
+.order-number-form-section .everest-form .everest-forms-submit-button,
+.contact-form-section .everest-form .everest-forms-submit-button {
+
+	padding: 10px 35px 10px 35px !important;
+	background: #E0B9B4 !important;
+	border: none !important;
+	color: #fff !important;
+	border-radius: 5px !important;
+
+}
+
+.everest-form .everest-forms-submit-button:hover {
+
+	background: #C02E44 !important;
+
+}
+
+.order-form-section .everest-form input,
+.contact-form-section .everest-form input {
+
+    padding: 15px 10px !important;
+    border-radius: 5px !important;
+    border: none !important;
+
+}
+
+.contact-form-section .everest-form textarea {
+   
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+.order-form-section .everest-form .evf-label {
+    color: #ffffff !important;
+    font-weight: 400 !important;
+}
+
+.contact-form-section .everest-form .evf-label {
+    
+    font-weight: 400 !important;
+}
+
+.order-form-section .evf-field-container {
+    padding-bottom: -50px !important;
+}
+
+.order-number-form-section .everest-form input {
+
+    border-radius: 5px !important;
+    border: none !important;
+    width: 100% !important;
+
+}
+
+
+.order-number-form-section form{
+	position: relative !important;
+    display: flex !important;
+    margin-top: -10px !important;
+    
+}
+
+.order-number-form-section .evf-frontend-row {
+	position: relative !important;
+    width: 90px !important;
+
+}
+
+.order-number-form-section .evf-field-container {
+
+    margin-right: -20px !important;
+
+}
+
+.order-number-form-section input[type=number]::-webkit-inner-spin-button,
+.order-number-form-section input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.order-number-form-section input[type=number]
+{
+  -moz-appearance: textfield !important;
+}
+
+.order-number-form-section form input[type=number] {
+
+    height: 40px !important;
+    line-height: 1.65 !important;
+    float: left !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 0px 20px 0px 5px !important;
+ 
+}
+
+.order-number-form-section form input[type=number]:focus {
+    outline: 0 !important;
+}
+
+.order-number-form-section .quantity-nav {
+    float: left !important;
+    position: relative !important;
+    right: 0 !important;
+    height: 38.5px !important;
+
+}
+
+.order-number-form-section .quantity-button {
+
+	background: #e0b9b4 !important;
+	padding: 0 14px 0 6px !important;
+	margin: 0 16px 0 0 !important;
+    position: relative !important;
+    cursor: pointer !important;
+    border-left: 1px solid #eee !important;
+    width: 100% !important;
+    text-align: center !important;
+    color: #333 !important;
+    font-size: 14px !important;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    line-height: 1.7 !important;
+    -webkit-transform: translateX(-100%) !important;
+    transform: translateX(-100%) !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+
+}
+
+.order-number-form-section .quantity-button:hover {
+
+    background: #c02e44 !important;
+
+}
+
+.order-number-form-section .quantity-button.quantity-up {
+
+    position: absolute !important;
+    height: 50% !important;
+    top: 0 !important;
+    border-bottom: 1px solid #eee !important;
+    color: #ffffff !important;
+    border-radius: 0px 5px 0px 0px !important;
+
+
+}
+
+.order-number-form-section .quantity-button.quantity-down {
+
+    position: absolute !important;
+    bottom: -1px !important;
+    height: 50% !important;
+    color: #ffffff !important;
+    border-radius: 0px 0px 5px 0px !important;
+
+}
+
+/* 768px wide applies to small devices */
+@media screen and (max-width: 768px){
+	
+	#home-top-title {
+
+		margin-top: -250px !important;
+
+	}
+
+}
+
+/* 992px applies to medium devices (tablets, less than 992px) */
+@media screen and (max-width: 992px) { 
+
+
+}
