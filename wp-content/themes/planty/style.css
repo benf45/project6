@@ -15,7 +15,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 */
 
-/* Header */
+/* Header menu */
 .menu-button {
 	background-color: #dc9f96 !important;
 	padding: 0px 30px !important;
@@ -38,9 +38,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 /* Footer */
+
 .footer-widgets {
 	background: #fff !important;
-	height: 80px !important;
+	
 	padding: 24px 0px 0px 0px !important;
 	
 }
@@ -65,17 +66,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 /* Home top */
-#home-top::before {
-  border-radius: 40% !important;
-  border: 10px solid #e3d9d0 !important;
-  position: absolute !important;
-  background: #ece2da !important;
-  right: -600px !important;
-  left: -600px !important;
-  top: -120px !important;
-  content: '' !important;
-  bottom: 0 !important;
-}
+#home-top {
+    background: #ece2da !important;
+    border-bottom: 15px solid #e3d9d0 !important;
+    width: 100% !important;
+    border-radius: 0 0 50% 50% / 55px !important;
+  }
+
 
 
 /* Button */
@@ -122,6 +119,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	border-radius: 5px !important;
 
 }
+
 
 .everest-form .everest-forms-submit-button:hover {
 
@@ -174,17 +172,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     
 }
 
-.order-number-form-section .evf-frontend-row {
-	position: relative !important;
-    width: 90px !important;
-
-}
-
-.order-number-form-section .evf-field-container {
-
-    margin-right: -20px !important;
-
-}
 
 .order-number-form-section input[type=number]::-webkit-inner-spin-button,
 .order-number-form-section input[type=number]::-webkit-outer-spin-button
@@ -233,15 +220,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     text-align: center !important;
     color: #333 !important;
     font-size: 14px !important;
-    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-    line-height: 1.7 !important;
     -webkit-transform: translateX(-100%) !important;
     transform: translateX(-100%) !important;
-    -webkit-user-select: none !important;
-    -moz-user-select: none !important;
-    -ms-user-select: none !important;
-    -o-user-select: none !important;
-    user-select: none !important;
 
 }
 
@@ -273,19 +253,90 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 }
 
-/* 768px wide applies to small devices */
+
+.order-number-form-section form {
+    height: 50px !important;
+}
+
+.order-number-form-section .evf-field-container {
+   width: auto !important;
+   position: absolute !important;
+   left: 0 !important;
+   margin: 0px 50px 0px -15px !important;
+}
+.order-number-form-section .evf-field-container .evf-frontend-row  {
+    width: 100% !important
+ }
+
+.order-number-form-section .evf-submit-container {
+        
+    position: absolute !important;
+    right: 0 !important;
+    width: auto !important;
+    margin-right: -15px !important;
+   
+}
+
+.order-number-form-section .order-submit-number-form {
+    width: 100% !important
+}
+
+
+
+
 @media screen and (max-width: 768px){
 	
-	#home-top-title {
+	/* Home title top */
+    #home-top-title {
 
 		margin-top: -250px !important;
 
 	}
 
+    /* Everest Form */
+    .order-form-section .everest-form .evf-frontend-grid:first-child {
+        border-right: none !important;
+    }
+
+    .order-number-form-section .evf-field-container {
+       width: auto !important;
+       position: absolute !important;
+       left: 0 !important;
+       margin: 0px 62px 0px 0px !important;
+    }
+    
+    .order-number-form-section .evf-submit-container {
+            
+        position: absolute !important;
+        right: 0 !important;
+        width: auto !important;
+        margin-right: -15px !important;
+       
+    }
+
+
 }
 
-/* 992px applies to medium devices (tablets, less than 992px) */
-@media screen and (max-width: 992px) { 
 
+@media screen and (max-width: 1142px) { 
+
+    /* Header menu */
+    .menu-button {
+
+	    padding: 0 !important;
+
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1380px) { 
+
+    /* Taste home section */
+    .taste-column h3 {
+
+	    font-size: 34px !important;
+
+    }
 
 }
